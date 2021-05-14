@@ -54,7 +54,7 @@ public class WorkerServer extends AbstractWorkerServer implements Server {
       ServerBootstrap serverBootstrap = new ServerBootstrap();
       serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
           .option(ChannelOption.SO_BACKLOG, 128)
-          // .childOption(ChannelOption.SO_KEEPALIVE, true)
+          .childOption(ChannelOption.SO_KEEPALIVE, true)
           .childHandler(new ChannelInitializer<SocketChannel>() {
             @Override
             public void initChannel(SocketChannel socketChannel) {
