@@ -1,8 +1,8 @@
 package com.lcp.im.worker.config;
 
-import static com.lcp.im.worker.handler.prop.consts.WorkerPropConst.WORKER_SERVER_BOSS_THREAD_COUNT;
-import static com.lcp.im.worker.handler.prop.consts.WorkerPropConst.WORKER_SERVER_PORT;
-import static com.lcp.im.worker.handler.prop.consts.WorkerPropConst.WORKER_SERVER_WORKER_THREAD_COUNT;
+import static com.lcp.im.worker.utils.consts.WorkerPropConst.WORKER_SERVER_BOSS_THREAD_COUNT;
+import static com.lcp.im.worker.utils.consts.WorkerPropConst.WORKER_SERVER_PORT;
+import static com.lcp.im.worker.utils.consts.WorkerPropConst.WORKER_SERVER_WORKER_THREAD_COUNT;
 
 import com.lcp.im.framework.components.prop.DefaultPropReader;
 import com.lcp.im.framework.components.prop.PropReader;

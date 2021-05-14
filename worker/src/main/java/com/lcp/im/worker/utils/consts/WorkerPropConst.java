@@ -1,4 +1,4 @@
-package com.lcp.im.worker.handler.prop.consts;
+package com.lcp.im.worker.utils.consts;
 
 /**
  * desc:    <br/>
