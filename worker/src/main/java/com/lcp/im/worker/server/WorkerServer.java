@@ -95,6 +95,7 @@ public class WorkerServer extends AbstractWorkerServer implements Server {
    */
   @Override
   public boolean stop() {
+    channel.closeFuture();
     return true;
   }
 }
